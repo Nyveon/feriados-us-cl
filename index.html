@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Yearly Holiday Calendar</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1 id="calendar-year"></h1>
+
+        <div id="legend">
+            <div class="legend-item">
+                <span
+                    class="legend-color weekend-legend"
+                    data-target-class="weekend"
+                ></span>
+                Weekend
+            </div>
+            <div class="legend-item">
+                <span
+                    class="legend-color holiday-cl-irr"
+                    data-target-class="holiday-cl-irr"
+                ></span>
+                Chilean Irrenunciable
+                <span class="legend-count"></span>
+            </div>
+            <div class="legend-item">
+                <span
+                    class="legend-color holiday-cl-civ"
+                    data-target-class="holiday-cl-civ"
+                ></span>
+                Chilean Civil <span class="legend-count"></span>
+            </div>
+            <div class="legend-item">
+                <span
+                    class="legend-color holiday-cl-rel"
+                    data-target-class="holiday-cl-rel"
+                ></span>
+                Chilean Religious
+                <span class="legend-count"></span>
+            </div>
+            <div class="legend-item">
+                <span
+                    class="legend-color holiday-us-fed"
+                    data-target-class="holiday-us-fed"
+                ></span>
+                US Federal <span class="legend-count"></span>
+            </div>
+        </div>
+
+        <div id="calendar-container"></div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
